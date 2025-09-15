@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "plateau-api-mcp"
+version = "0.1.0"
+description = "This is an unofficial MCP server for the PLATEAU API, which enables access to data maintained by Project PLATEAU, led by MLIT Japan."
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiofiles>=24.1.0",
+    "httpx>=0.28.1",
+    "mcp[cli]>=1.9.1"
+]
+
+[project.scripts]
+plateau-api-mcp = "plateau_api_mcp.plateau_api:main"
+
+[project.urls]
+Repository = "https://github.com/raokiey/plateau-api-mcp"
+Issues = "https://github.com/raokiey/plateau-api-mcp/issues"

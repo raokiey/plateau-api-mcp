@@ -1,0 +1,48 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging artifacts
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+
+# Test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Editors/IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Environments / uv
+.venv/
+.uv/
+uv.lock
+
+# OS metadata
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local config / secrets
+.env
+.env.*
+*.local

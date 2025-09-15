@@ -1,0 +1,15 @@
+plateau-api-mcp
+Copyright 2025 raokiey
+
+This product includes software developed by third parties.
+
+-------------------------------------------------------------------------------
+Third-Party Notices
+-------------------------------------------------------------------------------
+
+aiofiles (Apache License 2.0)
+Upstream: https://github.com/Tinche/aiofiles
+NOTICE (included verbatim as required by Apache-2.0):
+
+Asyncio support for files
+Copyright 2016 Tin Tvrtkovic
